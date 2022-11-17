@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=PT+Sans+Narrow&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    /*font-family: 'Poppins', sans-serif;*/
+    font-family: 'PT Sans Narrow',
+        sans-serif;
+    /*font-family: 'Baloo Bhai 2', cursive;*/
+}
+body{
+}
+/* @@@@@@@ Nav bar start here @@@@@@@*/
+.navbar {
+    width: 100%;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 10vh;
+}
+
+.nav-logo {
+    font-size: 1rem;
+    padding: 0rem 0.7rem;
+}
+
+.bar {
+    position: absolute;
+    right: 0;
+    margin: 0rem 0.7rem;
+    padding: 0.3rem;
+    font-size: 1.4rem;
+    background: white;
+    border-radius: 7px;
+}
+
+.menu-list {
+    position: absolute;
+    background: black;
+    color: white;
+    width: 100%;
+    left: 0;
+    top: 10vh;
+}
+
+.menu-list li {
+    text-align: center;
+    margin: 0.9rem 0rem;
+    font-size: 1.4rem;
+}
+
+.menu-list ul li a {
+    color: white;
+    padding: 0.5rem;
+}
+
+.menu {
+    display: none;
+}
+
+/* @@@@@@@ Nav bar end here @@@@@@@*/
+.container-center {
+    background: black;
+    width: 88%;
+    margin: 20px auto;
+    color: white;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-parsonal {
+    width: 250px;
+    background: rgba(229, 229, 229, 1);
+    text-align: center;
+    position: relative;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 4px 5px 20px rgba(0, 0, 0, 0.6);
+    transition: transform 1s;
+}
+
+.card-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 3px;
+}
+
+.card-paragraph {
+    width: 100%;
+    text-align: justify;
+    line-height: 26px;
+}
+
+.card-p-btn {
+    width: 120px;
+    height: 34px;
+    background: #FF432F;
+    color: white;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.common-btn {
+    width: 120px;
+    height: 44px;
+    background: #8945f4;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: 1.4s;
+    color: white;
+}
+
+.form-flex {
+    border: 2px solid;
+    width: 88%;
+    margin: 80px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+}
+
+.input {
+    border: 2px solid;
+    width: 90%;
+    margin: 0 auto;
+    height: 45px;
+    padding: 10px;
+    border-radius: 9px;
+}
+
+*/ pre {
+    width: 300px;
+    height: 60px;
+    margin: 0 auto;
+    display: block;
+    overflow-y: hidden;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-sb {
+    justify-content: space-between;
+}
+
+.flex-sa {
+    justify-content: space-around;
+}
+
+.flex-se {
+    justify-content: space-evenly;
+}
+
+.flex-align {
+    align-items: center;
+}
+
+.bg-purple {
+    background: #8845f4;
+    color: white;
+}
+
+.bg-orenge {
+    background: #EC8B39;
+    color: white;
+}
+
+.bg-red {
+    background: red;
+}
+
+.bg-blue {
+    background: blue;
+}
+
+.b-r-50{
+    border-radius: 50%;
+}
+
+.b-r-5{
+    border-radius: 5px;
+}
+.b-r-37-37{
+    border-radius: 37px 7px 37px 7px;
+    border: 2px solid red;
+}
+.ab-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.abs{
+    position: absolute;
+}
+.rel{
+    position: relative;
+}
+.sti{
+    position: sticky;
+    top: 0px;
+}
+.fix{
+    position: fixed;
+    top: 40%;
+    left: 2px;
+}
+.zindexnav{
+    z-index: 100;
+}
+.zindexhi{
+    z-index: 110;
+}
+.zindex{
+    z-index: 5;
+}
+/* @@@@@@@ hover start here @@@@@@@
+.card-parsonal:hover {
+    transform: scale(1.1);
+}*/

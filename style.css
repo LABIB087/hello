@@ -1,0 +1,180 @@
+.main-body {
+    width: 95%;
+    /*background: #B5BAEF;*/
+    /*background-image: linear-gradient(to left,#5a4157,#a8caba);*/
+    background: linear-gradient(to right,#F5C8CE, #F17C8B);
+    height: 45vh;
+    margin: 140px auto;
+    border-radius: 5px;
+    padding: 7px;
+    position: relative;
+}
+#home{
+    z-index: 50;
+}
+#about{
+    z-index: 10;
+}
+#contact{
+    z-index: 100;
+}
+.nav-in{
+    z-index: 80;
+}
+.nab {
+    width: 90%;
+    height: 30px;
+    margin: 0 auto;
+    /*background: red;*/
+}
+
+.nab ul li a {
+    float: left;
+    margin-left: 15px;
+    color: white;
+    transition: border 0.5s;
+}
+
+.nab ul li a:first-child {
+    margin-right: 15px;
+    margin-left: 14px;
+}
+
+.nab ul li a:hover {
+    border-bottom: red 2px solid;
+}
+
+.profile-logo {
+    width: fit-content;
+    position: absolute;
+    right: 5px;
+    top: 60px;
+}
+
+.profile-logo img {
+    width: 120px;
+    border-radius: 5px;
+    border: 2px solid;
+    height: 120px;
+}
+
+.info{
+    width: 60%;
+    text-align: justify;
+    position: absolute;
+    top: 58px;
+}
+.btn button{
+    width: 80px;
+    font-size: 1rem;
+    padding: 5px;
+    margin: 10px 0px;
+    color: white;
+    background: #8845f4;
+    border-radius: 4px;
+}
+
+.link{
+    background: white;
+    width: 60%;
+    height: 30px;
+    border-radius: 1000px;
+    position: absolute;
+    bottom: 15px;
+    text-align: center;
+    left: 18%;
+    
+}
+.link i{
+    font-size: 1.5rem;
+    margin: 4px 5px;
+    color: black;
+    margin-right: 10px;
+}
+
+.fac{
+    color: #3b5998;
+}
+
+.lin{
+    color: #3b5998;
+}
+
+.about{
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    color: white;
+}
+
+.table{
+    text-align: center;
+    width: 100%;
+}
+table{
+    margin: 40px auto;
+}
+table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 200px;
+}
+@media screen and (min-width: 650px) {
+    .main-body {
+        margin-top: 250px;
+        border-radius: 15px;
+        height: 45vh;
+    }
+
+    .nab {
+        width: 90%;
+        height: 3.5rem;
+        text-align: center;
+    }
+
+    .nab ul li a {
+        font-size: 2.5rem;
+        margin-left: 25px;
+    }
+
+    .nab ul li a:first-child {
+        margin-left: 120px;
+    }
+    
+    .profile-logo{
+        right: 10px;
+        top: 200px;
+    }
+    .profile-logo img{
+        width: 300px;
+        height: 300px;
+    }
+    .info{
+        font-size: 2.5rem;
+        top: 230px;
+        left: 25px;
+    }
+    .btn button{
+        width: 120px;
+        font-size: 1.7rem;
+    }
+    .link{
+        height: 4rem;
+        bottom: 25px;
+    }
+    .link a i{
+        font-size: 3rem;
+        margin: 5px 30px;
+    }
+    .about{
+        left: 20px;
+        font-size: 3rem;
+    }
+    table{
+        margin-top: 80px;
+    }
+    table,th,td{
+        width: 650px;
+    }
+}
